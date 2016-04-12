@@ -1,6 +1,11 @@
 AweTracker
 ==========
 
+## Demo
+I'm running a demo here: http://awetune.tk/
+It's always on the latest version so here, you'll be able to check the building process.
+Since I don't have much time to spend on this, feel free to contribute to the project.
+
 ## How to use
 
 ### Part 1
@@ -15,7 +20,7 @@ AweTracker
 
 - Change __FILTR_ID to your applications ID.
 - Change __FILTR_STAT to your applications STATT token.
-- Change __FILTR_APPTOKEN to your applications access token (second one).
+- Change __FILTR_APPTOKEN to your applications access token.
 
 - Change __BASEDIR to where AweTracker is on the system.
 - Change __ANNOUNCE to the URL of announce.php
@@ -25,7 +30,7 @@ AweTracker
 
 ### Part 3
 - Create a database.
-- Set charset to UTF8_GENERAL__CI
+- Set charset to UTF8_GENERAL_CI
 - Run the commands from awe.sql
 
 ### You are done!
