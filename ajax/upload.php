@@ -22,6 +22,10 @@
 		$comment	= $_sql->real_escape_string(trim($torrent->comment()));			if (!strlen($comment))		$comment = false;
 		$hash_org	= $_sql->real_escape_string($torrent->hash_info());
 
+		// Pre-checking
+		if (!$size || !strlen($name) || !$hash_org)
+			die(json_encode(array(	'status'	=> 'no_data'	)));
+
 		$torrent -> announce(false);
 		$torrent -> announce(__ANNOUNCE);
 		$torrent -> is_private($_set['is_private'] > 0 ? true : false);
