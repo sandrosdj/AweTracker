@@ -2,11 +2,12 @@ AweTracker
 ==========
 
 ## Demo
-I'm running a demo here: http://awetune.tk/
+I'm running a demo here: *** discontinued ***
 It's always on the latest version so here, you'll be able to check the building process.
 Since I don't have much time to spend on this, feel free to contribute to the project.
 
 ## How to use
+Since I did not want to create a reg/login system Filtr. is used to handle user authentication. Feel free to replace it with your solution.
 
 ### Part 1
 - Create a Filtr. account at https://filtr.sandros.hu
@@ -37,8 +38,5 @@ Since I don't have much time to spend on this, feel free to contribute to the pr
 For more settings, see the "settings" table in the database.
 
 ## IMPORTANT!
-This system is in aplha state without real version number.
-If you find a bug PLEASE REPORT IT!
-If you have time, please help me developing this tracker.
-
-Feel free to send me an email: spam at sandros.hu (not joking!)
+This is/was a hobby project from some time ago when I got the idea to experiment with p2p/torrent trackers.
+I'd suggest that you do not use this for any important/public purposes, it may have fatal bugs/vulnerabilities. 
